@@ -1,33 +1,51 @@
-# Flask Template
-Basic structure for starting a Flask project with Jinja templates
+# Business Card Template
+Basic structure for creating your very own business card using Flask and Jinja
 
 ---
-1. Clone this repository to local computer
+1. Open Github Desktop
 
-2. Rename the directory to reflect the new project name
+2. Click on ``` Clone a repository from the internet... ```
 
-3. Delete .git folder
+3. Navigate to `URL`
 
-4. Create a new virtual environment 
-   - Windows:  ```python -m venv ./venv```
-   - Mac:  ```python -m venv ./venv```
+4. Paste this link: ``` github.com/aidang1003/business-card ```
 
-5. Activate the new virtual environment
-   - Windows:  ```.\venv\Scripts\activate```
-   - Mac:  ```source ./venv/bin/activate```
+5. Create a folder to put the repository in by pressing `choose`
 
-6. Install the dependencies ```pip install -r requirements.txt```
+6. Press `Clone`
 
-7. Make a new repository by running ```git init``` in the folder.
+7. Rename the directory to reflect the new project name
 
-8. Track all the files in the new local repository ```git add .```
+8. Delete .git folder
+   - To do this you might have to Google how to show hidden files
 
-9. Make the first commit of this new project ```git commit -m 'first commit of <project name> from flask_template```
+9. Open the CMD line and enter the folder
+   - Type ``` CD Desktop\rest\of\path ```
 
-10. On Github, create a new repository. *DO NOT* initialize it
+10. Create a new virtual environment 
+   - In CMD line type:  ``` python -m venv ./venv ```
 
-11. Connect the local repository to the new Github repository ```git remote add origin <<repository_URL>>```
+11. Activate the new virtual environment
+   - In CMD line type:  ``` .\venv\Scripts\activate ```
 
-12. Create and change to a new local development branch ```git checkout b <<branch_name>>```
+12. Install the dependencies
+   - In CMD line type:  ``` pip install -r requirements.txt ```
 
-13. Continue working with the project as you normally would.
+13. Make a new repository 
+   - In CMD line type:  ``` git init ```
+
+14. Track all the files in the new local repository
+   - In CMD line type:  ``` git add . ```
+
+15. Make the first commit of this new project 
+   - In CMD line type:  ``` git commit -m 'first commit of <project name> from flask_template ```
+
+16. On Github, create a new repository. *DO NOT* initialize it
+
+17. Connect the local repository to the new Github repository 
+   - In CMD line type:  ``` git remote add origin <<repository_URL>> ```
+
+18. Create and change to a new local development branch 
+   - In CMD line type:  ``` git checkout b <<branch_name>> ```
+
+19. Continue working with the project as you normally would.
